@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        .icono {
+            filter: invert(40%) sepia(20%) saturate(400%) hue-rotate(7deg);
+        }
+    </style>
+</head>
+
+<body class="font-haken bg-gray-100 py-8">
+    <section class="w-[90%] max-w-md mx-auto bg-white shadow-2xl md:flex md:rounded-2xl md:max-w-4xl">
+        <article
+            class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-2xl p-10 text-white text-center md:rounded-2xl md:w-1/2 md:grid md:content-center">
+            <p class="text-xl font-bold text-light-lavender">Your Result</p>
+            <div
+                class="w-36 aspect-square bg-gradient-to-b from-violet-blue to-persian-blue rounded-full mx-auto my-8 grid content-center md:w-56">
+                <p class="text-5xl font-bold mb-2 md:text-7xl">76</p>
+                <p class="font-bold text-light-lavender">of 100</p>
+            </div>
+            <h3 class="text-3xl mb-4 font-bold">Great</h3>
+            <p class="text-light-lavender">You scored higher than 65% of the people
+                who have taken these tests.</p>
+        </article>
+
+        <article class="p-10 grid gap-6 md:w-1/2">
+            <h3 class="text-xl font-bold">Summary</h3>
+            <div class="bg-light-red/10 rounded-xl flex py-5 px-6 items-center">
+                <img src="./assets/child-reaching-solid.svg" class="icono" alt="" height="15px" width="15px"
+                    style="color:blue;">
+                <p class="ml-3 text-light-red text-lg">Reacción</p>
+                <p class="ml-auto font-bold text-dark-gray-blue">
+                    80
+                    <span class="text-dark-gray-blue/70">/ 100</span>
+                </p>
+            </div>
+            <div class="bg-orangey-yellow/10 rounded-xl flex py-5 px-6 items-center">
+                <img src="./assets/brain-solid.svg" class="icono" height="15px" width="15px">
+                <p class="ml-3 text-orangey-yellow text-lg">Memoria</p>
+                <p class="ml-auto font-bold text-dark-gray-blue">
+                    92
+                    <span class="text-dark-gray-blue/70">/ 100</span>
+                </p>
+            </div>
+            <div class="bg-green-teal/10 rounded-xl flex py-5 px-6 items-center">
+                <img src="./assets/comment-dots-solid.svg" class="icono" height="15px" width="15px">
+                <p class=" ml-3 text-green-teal text-lg"> Verbal</p>
+                <p class="ml-auto font-bold text-dark-gray-blue">
+                    61
+                    <span class="text-dark-gray-blue/70">/ 100</span>
+                </p>
+            </div>
+            <div class="bg-cobalt-blue/10 rounded-xl flex py-5 px-6 items-center">
+                <img src="./assets/eye-solid.svg" class="icono" height="15px" width="15px">
+                <p class="ml-3 text-cobalt-blue text-lg"> Visual</p>
+                <p class="ml-auto font-bold text-dark-gray-blue">
+                    72
+                    <span class="text-dark-gray-blue/70">/ 100</span>
+                </p>
+            </div>
+
+            <a href="#"
+                class="bg-dark-gray-blue text-white py-5 text-center rounded-full font-bold hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue">Continuar</a>
+        </article>
+
+    </section>
+</body>
+
+</html>

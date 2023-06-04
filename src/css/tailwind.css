@@ -1,0 +1,4 @@
+/* Estas son directivas para  traer todos los estilos base para que funcione correctamente*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
